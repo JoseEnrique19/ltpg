@@ -28,6 +28,7 @@
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="index.php">Inicio</a>
+      <img src="static/img/logo.png">
     </div>
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -40,7 +41,10 @@
   </div>
 </nav>
 
-        <center><h1>Noticias sobre LTPG</h1></center>
+        <center>
+          <h1>Learn To Play Guitar</h1>
+          <img src="static/img/logo-2.png">
+        </center>
         
        
                 <?php while ($row=$news->fetch_assoc()) {?>
@@ -62,4 +66,4 @@
         <script src="static/bootstrap.min.js"></script>
 
     </body>
-</html>
+</html> 
